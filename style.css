@@ -1,0 +1,58 @@
+body{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.headline{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.btn{
+    box-shadow: 1px 1px 10px 1px rgba(237, 237, 49, 0.197);
+}
+
+.rounded-pill {
+    background-color: rgba(253, 127, 43, 0.15); 
+    color: rgba(244, 140, 22, 0.895); 
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(237, 124, 49, 0.084);
+}
+
+.case-studies img {
+  /* width: 90%;
+  height: 90%;  */
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+
+.blu{
+  background-color: rgba(43, 116, 253, 0.15); 
+    color: rgba(22, 89, 244, 0.895); 
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(237, 124, 49, 0.084);
+}
+
+.gre{
+  background-color: rgba(4, 213, 84, 0.15); 
+    color: rgba(1, 139, 31, 0.895); 
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(237, 124, 49, 0.084);
+}
+
+.test-cards img{
+width: 60px;
+height: 60px;
+object-fit: cover;
+}
+
+
+.test-card-body {
+  position: relative;
+}
+
+.test-card-body .quote-icon {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
